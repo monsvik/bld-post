@@ -5,7 +5,7 @@ A library to post data to Business Loss Detector
 
 ## Installation
 
-    npm install https://github.com/monsvik/bld-post/bld-post.git -save
+    npm install https://github.com/monsvik/bld-post.git -save
 
 ## Usage
 
