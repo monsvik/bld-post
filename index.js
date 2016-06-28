@@ -10,8 +10,6 @@ module.exports = function(config, data, callback){
 
     var http_data = JSON.stringify(data);
 
-    console.log(data);
-
     var http_options = {
         host: config.host,
         port: config.port,
@@ -29,7 +27,7 @@ module.exports = function(config, data, callback){
             console.log('Response:', chunk);
         });
         res.on('end', function(){
-            console.log('Request end');
+            callback(null, true);
         });
     });
 
