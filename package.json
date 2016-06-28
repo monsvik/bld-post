@@ -1,0 +1,11 @@
+{
+  "name": "bld-post",
+  "version": "1.0.0",
+  "description": "Post data to the BLD API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lars-Erik Monsvik",
+  "license": "ISC"
+}
