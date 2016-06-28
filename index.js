@@ -1,4 +1,3 @@
-var querystring = require('querystring');
 var http = require('http');
 
 module.exports = function(config, data, callback){
